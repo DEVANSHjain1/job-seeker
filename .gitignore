@@ -1,0 +1,28 @@
+# Dependencies
+/node_modules
+/backend/node_modules
+/frontend/node_modules
+/thriveVerseAI/node_modules
+
+# Build artifacts
+/build
+/frontend/build
+/thriveVerseAI/build
+
+# Environment variables
+.env
+.env.*
+!/.env.example
+
+/backend/.env
+/frontend/.env
+/thriveVerseAI/.env
+/thriveVerseAI/.env.production
+/thriveVerseAI/.env.development
+
+# IDE and OS files
+.idea/
+*.iml
+*.iws
+.DS_Store
+npm-debug.log
