@@ -13,7 +13,7 @@ graph TD
     end
 
     subgraph "Frontend Layer"
-        B[React SPA <br> (Job Seeker UI)]
+        B["React SPA <br> (Job Seeker UI)"]
         C[ThriveVerse AI Client]
     end
 
